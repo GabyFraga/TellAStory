@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tell A Story</string>
+    <string name="center_character">One Character</string>
+    <string name="wich_character">Choose your main character:</string>
+    <string-array name="characters">
+        <item>cat</item>
+        <item>tiger</item>
+    </string-array>
+    <string name="tell_a_story">Tell A Story!</string>
+</resources>
