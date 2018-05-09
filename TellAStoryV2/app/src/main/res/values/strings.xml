@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Tell A Story</string>
+    <string name="center_character">One Character</string>
+    <string name="wich_character">Choose your main character:</string>
+    <string-array name="characters">
+        <item>cat</item>
+        <item>tiger</item>
+        <item>dog</item>
+        <item>bird</item>
+        <item>bat</item>
+        <item>potato</item>
+        <item>lettuce</item>
+        <item>apple</item>
+        <item>banana</item>
+        <item>pear</item>
+        <item>restaurant</item>
+        <item>grocery shop</item>
+        <item>vending stall</item>
+        <item>diner</item>
+        <item>food truck</item>
+        <item>dad</item>
+        <item>mom</item>
+        <item>sister</item>
+        <item>brother</item>
+        <item>aunt</item>
+        <item>car</item>
+        <item>bus</item>
+        <item>bike</item>
+        <item>skate</item>
+        <item>plane</item>
+    </string-array>
+    <string name="tell_a_story">Tell A Story!</string>
+    <string name="how_many_sentences">Choose the number of sentences in your story:</string>
+    <string-array name="sentences">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gaby.tellastory.app.TellAStory">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/title"
+            android:textColor="#000000"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text="@string/wich_character"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/combobox_characters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/characters">
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/blank"
+            android:textColor="#000000"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/title2"
+            android:textColor="#000000"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text="@string/how_many_sentences"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/combobox_sentences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/sentences">
+
+        </Spinner>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/centerCharacter"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/tell_a_story"
+            android:textColor="@color/colorAccentText"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
